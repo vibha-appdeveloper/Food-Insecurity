@@ -33,108 +33,72 @@ _INSTRUCTIONS: Complete all required deliverable sections below._
 
 ### The issue we are hoping to solve
 
-REPLACE THIS SENTENCE with a short description, 2-3 sentences in length, of the specific sustainability problem your solution is meant to address.
+Food Insecurity problem which region, age, which category people in USA and canada are food insecure and try to shift food banks and budget resources to these people, age group and regions where the problem is more.
 
 ### How our technology solution can help
 
-REPLACE THIS SENTENCE with a short description of your team's solution, in about 10 words.
+With analysis finding out these problems and create Chat Bots and deploy it in Website and in website we can keep charts and anaytics data where NGOs and Government can see where more problems are and working accordingly.
 
 ### Our idea
 
-INSTRUCTIONS: Replace this paragraph with a longer description of your solution. In about 500 words, describe your solution in more detail. Include the real-world problem you identified, describe the technological solution you have created, and explain how it’s an improvement over existing solutions. You can supply additional documentation in this source code repository that you link to as well.
+Problem Statement - Predict for Food NGOs to identify areas and scarcity that will have high food insecurity so the resources can be shifted there.
 
-More detail is available in our [description document](./docs/DESCRIPTION.md).
+Solution and Roadmap-
+Used IBM Cloud Watson Assistant to create chatbots ai generated virtual assistant.
+Used Tableau to do analysis of Food Insecurity data of USA, Canada joined to see this data where more Budget short fall is their and demographically where there is more problem. 
+By looking graphical presentation, we can know which area, age has more Food Insecurity problem and Food banks can be shifted their or new Food banks can be made. 
+
 
 ## Technology implementation
 
 ### IBM AI service(s) used
 
-_INSTRUCTIONS: Included here is a list of commonly used IBM AI services. Remove any services you did not use, or add others from the linked catalog not already listed here. Leave only those included in your solution code. Provide details on where and how you used each IBM AI service to help judges review your implementation. Remove these instructions._
+- [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) - created chat bots in website for easy and fast approach to solution.
 
-- [IBM Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Discovery](https://cloud.ibm.com/catalog/services/watson-discovery) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- List any additional [IBM AI services](https://cloud.ibm.com/catalog?category=ai#services) used or remove this line
-
-### Other IBM technology used
-
-INSTRUCTIONS: List any other IBM technology used in your solution and describe how each component was used. If you can provide links to/details on exactly where these were used in your code, that would help the judges review your submission.
 
 ### Solution architecture
 
 Diagram and step-by-step description of the flow of our solution:
 
-![Video transcription/translaftion app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
-
-1. The user navigates to the site and uploads a video file.
-2. Watson Speech to Text processes the audio and extracts the text.
-3. Watson Translation (optionally) can translate the text to the desired language.
-4. The app stores the translated text as a document within Object Storage.
+1. Taken USA Data and Canada data.
+2. In Tableau I imported this data and did analysis
+3. In Analysis I found that some regions have more food insecurity and also age and ethnic wise, we have food banks and budgets we should shift banks and investments to these regions/age group.
+4. I created Watson Assistant chat bot and deploy in website from WordPress Plugin from IBM.
+5. This Chat Bot will make life easier by detecting and providing links or pages to see the charts and you can make decision where the problem is and invest their.
 
 ## Presentation materials
 
-_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://cfc-prod.skillsnetwork.site/), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
+https://public.tableau.com/views/FoodInsecurityCanada-MarginalModerateandSevere/FoodInsecurity-AgeWiseCanada?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link - canada data
+https://public.tableau.com/views/FoodInsecurity_16863218992370/FoodInsecurity?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link  -  USA data
+https://public.tableau.com/views/FoodInsecurity_16863218992370/FoodInsecurity-SeniorsAdults?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link - USA data
 
+https://youtu.be/Xe1WNY8DJV8
+_
 ### Solution demo video
 
-[![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+https://youtu.be/Xe1WNY8DJV8
 
 ### Project development roadmap
 
 The project currently does the following things.
 
-- Feature 1
-- Feature 2
-- Feature 3
+- From Tableau did analysis and made charts / dashboards attach these charts in website for NGOs and Government to see where to open or shift food banks or invest. 
+- Watson Assistant AI Chat bot will guide with the the above problem
 
 In the future we plan to...
 
-See below for our proposed schedule on next steps after Call for Code 2023 submission.
+Get world data proper data access for all counties and solve every country problem of Food Insecurity and asking world leaders or governments for budgets.
 
-![Roadmap](./images/roadmap.jpg)
-
-## Additional details
-
-_INSTRUCTIONS: The following deliverables are suggested, but **optional**. Additional details like this can help the judges better review your solution. Remove any sections you are not using._
 
 ### How to run the project
+Procedure To see Watson Assistant Chat Bot created.
+1.	First – Login to IBM Cloud – Credentials it is public - vibhachawda@gmail.com
+                                                            Ibmcareers@123
+2.	 Suvarna Gadgil account will be shown.
+3.	Go to Watson Assistant chatbot created.
+4.	Launch it you will see intents, entities, dialogues created and try it out in try out panel. 
+5.	You can deploy it in Word press site in next step in that only.
 
-INSTRUCTIONS: In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
 
-### Live demo
 
-You can find a running system to test at...
 
-See our [description document](./docs/DESCRIPTION.md) for log in credentials.
-
----
-
-_INSTRUCTIONS: You can remove the below section from your specific project README._
-
-## About this template
-
-### Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-### Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-### Authors
-
-<a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
-</a>
-
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-### License
-
-This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
-
-### Acknowledgments
-
-- Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
